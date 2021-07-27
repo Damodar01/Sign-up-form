@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(p/123.JPG);   
+    background-size:cover ;
+    
+}
+.sign {
+    height: ;
+    width: 300px;
+    padding: 1px;
+    margin: 100px auto 9%;
+    text-align: center;
+    background-color: rgba(186, 218, 189, 0.93));
+    border-radius: 9px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.sign h1{
+    color :rgba(2, 34, 14, 0.877);  
+     font-family: fantasy;
+     font-size: 35px;
+}
+.input_box,#pass {
+    border-radius: 15px ;
+    padding: 12px;
+    width: 204px;
+    margin: 5px;
+    border-style: unset;
+    border-bottom-style: groove  ;
+    border-color:rgba(186, 218, 189, 0.12);
+    background-color: rgba(255, 255, 255, 0.12);
+    box-shadow: 6px 6px;
+}
+button{
+    background-color: rgba(242, 248, 243, 0.12) ;
+    border-radius:  60px;
+    border-bottom-style: groove  ;
+    font-size: 27px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 6px 6px;
+    cursor: pointer;
+}
+select
+{
+    border-radius: 20px;
+    box-shadow: 6px 6px;
+    background-color: transparent;
+    
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+button:active{
+    background-color: rgb(10, 1, 61);
+    color: whitesmoke;
+}
